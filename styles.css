@@ -1,1 +1,53 @@
 
+header{
+  width:90%;
+  max-width:960px;
+  margin:20px auto;
+  font-size:120%;
+  font-family:sans-serif;
+  line-height: 150%;
+}
+a {
+  text-decoration:none;
+}
+h3{
+    text-align:right;
+}
+nav{
+  width:95%;
+  max-width:960px;
+  margin: 10px auto;
+    
+}
+
+.row{
+  display:flex;
+}
+.row div{
+  flex:1;
+}
+
+nav div{
+  display: inline-block;
+  margin:4px 10px;
+}
+nav div img{
+  max-width: 155px;
+  max-height: 150px;
+  margin:auto;
+}
+
+footer {
+  width:60%;
+  min-width:850px;
+  font-size:14px;
+  margin:10px auto;
+  text-align:center;
+  border-top:1px black solid;
+  line-height: 250%;
+}
+
+footer a{
+  margin-top:20px;
+  margin-left:20px;
+}
